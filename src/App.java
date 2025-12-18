@@ -22,5 +22,11 @@ public class App {
          * Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
          */
         System.out.println("Hello, World!");
+        // String input = "yxabbaxz";
+        String input = "aaa";
+        Solution solution = new Solution();
+        int result = solution.countPalindromicSubstrings(input);
+        System.out.println(
+                "The given input is: " + input + " and the number of palindromic substrings it contains is: " + result);
     }
 }
